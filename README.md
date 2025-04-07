@@ -79,8 +79,8 @@ You can provide audio in two ways:
 
 **NB:** I removed the lines  
 ```python  
-#import IPython.display as ipd  
-#ipd.Audio("/content/HS4830417304.mp3", autoplay=True)  
+import IPython.display as ipd  
+ipd.Audio("/content/HS4830417304.mp3", autoplay=True)  
 ```  
 so that the file can be uploaded to Git—it was beyond the 25MB limit.  
 Feel free to add those lines at the end of the notebook if needed.
