@@ -75,7 +75,15 @@ You can provide audio in two ways:
 
 - **Pre-upload** via API or file handler.
 - **Inline data** in the request body.
+---
 
+**NB:** I removed the lines  
+```python  
+#import IPython.display as ipd  
+#ipd.Audio("/content/HS4830417304.mp3", autoplay=True)  
+```  
+so that the file can be uploaded to Git—it was beyond the 25MB limit.  
+Feel free to add those lines at the end of the notebook if needed.
 ---
 
 ## 💵 Pricing (as of Gemini 2.5 Pro)
