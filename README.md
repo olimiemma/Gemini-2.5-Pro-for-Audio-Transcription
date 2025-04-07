@@ -84,7 +84,6 @@ You can provide audio in two ways:
 ```  
 so that the file can be uploaded to Git—it was beyond the 25MB limit.  
 Feel free to add those lines at the end of the notebook if needed.
----
 
 ## 💵 Pricing (as of Gemini 2.5 Pro)
 
